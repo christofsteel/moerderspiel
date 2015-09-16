@@ -1,0 +1,8 @@
+email
+Flask
+Flask-Genshi
+Genshi
+python-dateutil
+qrcode
+twython
+https://yapgvb.googlecode.com/files/yapgvb-1.2.3-source.tar.gz
