@@ -504,7 +504,7 @@ def pdfget(id, mastercode, count=0):
 				filename = game.pdfgen()
 			else:
 				try:
-					_pdfblankgen(req, int(count), game)
+					_pdfblankgen(int(count), game)
 				except:
 					return error(req, u"Das war keine Zahl...")
 		pdf = file(filename, 'r')
